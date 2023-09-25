@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>5:36am</title>
-    <script src="forrest.js"></script> 
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="title">
-	    <h1>ВИЗНАЧЕННЯ РОСТО-ВАГОВОГО ПОКАЗНИКА</h1>
-    </div>
-    <div class="bodyWeight">
-        <label class="question__one">Введіть свою масу тіла:</label>
-        <input class="text-field__input" id="massBody">
-        <label class="question__two">Введіть свій ріст:</label>
-        <input class="text-field__input_two" id="heightBody">
-    </div>
-    
-    <button id="mainButton">ПОРАХУВАТИ</button>
-    <div class ="output" id="result__item">
-        
-    </div>
-</body>
-
+    <head>
+        <meta charset="utf-8" />
+        <title>5:36am</title>
+        <script src="forrest.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="info-parent">
+                <div class="info-parent__item info-card">
+                    <div class="info-card__number card-number">001</div>
+                    <div class="info-card__line line line_grey"></div>
+                    <div class="info-card__title card-title">
+                        Введіть масу тіла
+                    </div>
+                    <div class="info-card__photo card-photo">
+                        <img
+                            class="photo-research"
+                            src="icon/research-photo.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="info-card__text card-text">
+                        <label class="question__one"
+                            >Введіть свою масу тіла:</label
+                        >
+                        <input class="text-field__input" id="massBody" />
+                    </div>
+                </div>
+                <div class="info-parent__item info-card">
+                    <div class="info-card__number card-number">002</div>
+                    <div class="info-card__line line line_grey"></div>
+                    <div class="info-card__title card-title">
+                        Введіть свій ріст
+                    </div>
+                    <div class="info-card__photo card-photo">
+                        <img
+                            class="photo-build"
+                            src="icon/build-photo.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="info-card__text card-text">
+                        <label class="question__two">Введіть свій ріст: </label>
+                        <input class="text-field__input_two" id="heightBody" />
+                    </div>
+                </div>
+                <div class="info-parent__item info-card">
+                    <div class="info-card__number card-number">003</div>
+                    <div class="info-card__line line line_grey"></div>
+                    <div class="info-card__title card-title">ПОРАХУВАТИ</div>
+                    <div class="info-card__photo card-photo">
+                        <img
+                            class="photo-optimize"
+                            src="icon/optimize.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="info-card__text card-text">
+                        <button id="mainButton">ПОРАХУВАТИ</button>
+                        <div class="output" id="result__item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
